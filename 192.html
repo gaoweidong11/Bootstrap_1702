@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <title>Title</title>
+    <script>
+        $(function () {
+            $("#concealment").bind("click", function () {
+                $("div").toggle();
+            });
+        });
+    </script>
+</head>
+<body>
+<span id="concealment">点我</span>
+<div>
+    <h1>Heading-1</h1>
+    <h2>Heading-2</h2>
+    <h3>Heading-3</h3>
+</div>
+</body>
+</html>

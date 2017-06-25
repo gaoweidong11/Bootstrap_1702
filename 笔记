@@ -1,6 +1,42 @@
+
+版本：3.3.7
+
+1.Grid Basic    //  基础的栅格
 xs (for phones)     手机
 sm (for tablets)    平板电脑
 md (for desktops)    台式机
 lg (for larger desktops)  对于较大的桌面
 
-版本：3.3.7
+2.Typography   //排版
+
+3.Tables     //  表格
+
+4.Images   // 图像
+
+5.Jumbotron  // 超大屏幕
+
+6.Wells  // 井  浅容器
+
+7.Alerts //  警告
+
+8.Buttons button / input / a    //按钮/输入框/链接
+
+9.Button Groups    //按钮组
+
+10.Glyphicons    //字体图标
+
+11.Badges / Labels    //徽章 标签
+
+12.Progress Bars    //进度栏
+
+13.Pagination   //分页
+
+14.Pager //寻呼机
+
+15.List Groups  //列表组
+
+16.Panels   //面板
+
+17.Dropdowns  // 下拉列表
+
+18.Collapse    //折叠板
