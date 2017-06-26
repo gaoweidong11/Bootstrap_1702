@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="form-horizontal">
+        <form action="http://bing.com">
+            <div class="form-group">
+                <label class="control-label col-md-2">Username</label>
+                <div class="col-md-10">
+                    <!--<input id="username" class="form-control" type="text" placeholder="username">-->
+                    <p class="form-control-static">Tom</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="password">Password....</label>
+                <div class="col-md-10">
+                    <input id="password" class="form-control" type="password" placeholder="password">
+                    <p>character 6</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="intro">Introduce</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" id="intro" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="city">City</label>
+                <div class="col-md-10">
+                    <select class="form-control" name="" id="city">
+                        <option value="">Beijing</option>
+                        <option value="">Shanghai</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Hobbies</label>
+                <div class="col-md-10">
+                    <label class="checkbox-inline"><input type="checkbox"> TV</label>
+                    <label class="checkbox-inline"><input type="checkbox" disabled> Game</label>
+                    <label class="checkbox-inline"><input type="checkbox"> MOVIE</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Gender</label>
+                <div class="col-md-10">
+                    <label class="radio-inline"><input name="gender" type="radio"> Male</label>
+                    <label class="radio-inline"><input name="gender" type="radio"> Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Avatar</label>
+                <div class="col-md-10">
+                    <label class="btn btn-warning">
+                        Browse <input type="file" style="display: none">
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10 col-md-offset-2">
+                    <div class="checkbox">
+                        <label for="rm"><input id="rm" type="checkbox"> Rememberme</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10 col-md-offset-2">
+                    <button class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <form action="">
+        <div class="input-group has-success">
+            <!--<label>Username</label>-->
+            <span class="input-group-addon">Username</span>
+            <input class="form-control" type="text">
+            <div class="input-group-btn">
+                <button class="btn btn-danger">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -7,6 +7,8 @@ sm (for tablets)    平板电脑
 md (for desktops)    台式机
 lg (for larger desktops)  对于较大的桌面
 
+disabled  残缺的
+
 2.Typography   //排版
 
 3.Tables     //  表格
@@ -40,3 +42,21 @@ lg (for larger desktops)  对于较大的桌面
 17.Dropdowns  // 下拉列表
 
 18.Collapse    //折叠板
+
+19.Tabs 选项卡 / Pills 胶囊
+
+20.Navbar nav   //导航栏
+
+21.Forms  表格； 形式
+
+22.Inputs   //投入
+
+23.Media Object 媒体对象
+
+24.Carousel 旋转木马
+
+25.Modal 模态框
+
+26.Tooltip 提示工具
+
+27.Popover 弹出框
